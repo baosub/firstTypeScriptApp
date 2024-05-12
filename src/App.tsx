@@ -1,5 +1,6 @@
 
 import Abutton from './components/Abutton'
+import BdisabledButton from './components/BdisabledButton'
 
 function App() {
 
@@ -8,7 +9,9 @@ function App() {
     <>
 
       <Abutton title='This is a button' />
-    </>
+      <BdisabledButton title="Soy un botón desactivado" disabled={true}/>
+      
+       </>
   )
 }
 
