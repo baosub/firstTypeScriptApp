@@ -9,7 +9,7 @@ function App() {
     <>
 
       <Abutton title='This is a button' />
-      <BdisabledButton title="Soy un botón desactivado" disabled={true}/>
+      <BdisabledButton title="I am a disabled button" disabled={true}/>
       
        </>
   )
